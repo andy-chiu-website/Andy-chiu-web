@@ -1,2 +1,88 @@
 # Andy-chiu-web
 Mi web personal 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andy Chiu | Página Web Empresarial</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #007BFF, #7ED957, #FFD700);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f1f1f1;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #FFD700;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #e9f9e2;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+    }
+
+    footer {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Andy Chiu</h1>
+    <p>Bienvenidos a la página web de nuestra empresa</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <!-- Puedes agregar más enlaces aquí -->
+  </nav>
+
+  <section class="hero" id="inicio">
+    <h1>Innovación y Tecnología</h1>
+    <p>Ofrecemos soluciones modernas para tu negocio</p>
+  </section>
+
+  <footer>
+    <p>©️ 2025 Andy Chiu. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
